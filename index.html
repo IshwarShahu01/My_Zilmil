@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zilmil — for Sakshi</title>
+<meta name="description" content="A small constellation of memories, made for Sakshi.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Inter:wght@300;400;500;600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ambient star canvas, sits behind everything -->
+<canvas id="sky" aria-hidden="true"></canvas>
+
+<!-- constellation progress nav -->
+<nav class="constellation-nav" aria-label="Section navigation">
+  <div class="constellation-track">
+    <div class="constellation-fill" id="constellationFill"></div>
+  </div>
+  <ul>
+    <li><a href="#home" data-label="Home"><span class="dot"></span></a></li>
+    <li><a href="#tonight" data-label="Tonight"><span class="dot"></span></a></li>
+    <li><a href="#zilmil" data-label="Zilmil"><span class="dot"></span></a></li>
+    <li><a href="#story" data-label="Our Story"><span class="dot"></span></a></li>
+    <li><a href="#her" data-label="Just Her"><span class="dot"></span></a></li>
+    <li><a href="#quotes" data-label="Sweet Nothings"><span class="dot"></span></a></li>
+    <li><a href="#game" data-label="Little Game"><span class="dot"></span></a></li>
+    <li><a href="#song" data-label="Her Song"><span class="dot"></span></a></li>
+    <li><a href="#wish" data-label="The Wish"><span class="dot"></span></a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="section hero">
+    <div class="hero-inner">
+      <p class="eyebrow reveal">for Sakshi — my zilmil</p>
+      <h1 class="hero-title reveal">
+        <span class="word">Zil</span><span class="word">mil</span><span class="twinkle-mark">✨</span>
+      </h1>
+      <p class="hero-sub reveal">a constellation of us — every star, an inside joke</p>
+      <a href="#zilmil" class="scroll-cue reveal" aria-label="Scroll to begin">
+        <span></span>
+        <small>scroll, love</small>
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= TONIGHT'S SKY ================= -->
+  <section id="tonight" class="section tonight-section">
+    <div class="container narrow center">
+      <p class="eyebrow reveal">June 18 — tonight, specifically</p>
+      <h2 class="reveal">Tonight, Even the Sky Lined Up</h2>
+      <div class="sky-diagram reveal" aria-hidden="true">
+        <div class="sky-line"></div>
+        <span class="sky-body moon" title="Moon">
+          <span class="sky-crescent"></span>
+        </span>
+        <span class="sky-body venus" title="Venus"></span>
+        <span class="sky-body jupiter" title="Jupiter"></span>
+        <span class="sky-body mercury" title="Mercury"></span>
+      </div>
+      <p class="sky-caption reveal">Moon · Venus · Jupiter · Mercury — low in the western sky after sunset, tonight only</p>
+      <div class="zilmil-copy reveal">
+        <p>If you look west just after sunset tonight, you'll find the Moon sitting close to Venus, Jupiter, and Mercury — all of them lined up in a soft diagonal across the dusk. Astronomers have a name for it. I have a simpler one: the universe finally agreeing with me.</p>
+        <p>I picked today to give you this, zilmil, because for once, even the sky is doing the thing you do to me every day — lining everything up, and making it impossible to look away.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MEANING OF ZILMIL ================= -->
+  <section id="zilmil" class="section zilmil-section">
+    <div class="container narrow">
+      <p class="eyebrow reveal">a name only I use</p>
+      <h2 class="reveal">Why I call you Zilmil <span class="star-accent">✦</span></h2>
+      <div class="zilmil-copy reveal">
+        <p>Zilmil isn't really a word. It's the sound the sky makes when the stars are trying to tell you something — that flicker, that wink, that little blink-and-it's-gone shimmer right before midnight.</p>
+        <p>I started calling you that somewhere between a random Tuesday and a parrot story I'm still not over telling. Because somehow, without asking permission, you switched on a light in my life I didn't even know had gone out.</p>
+        <p>So now, every time the sky does that twinkly little thing it does — I think of you. Not by the name everyone else uses. By the one that's only ours.</p>
+      </div>
+    </div>
+    <div class="floating-stars" aria-hidden="true">
+      <span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span>
+    </div>
+  </section>
+
+  <!-- ================= OUR STORY ================= -->
+  <section id="story" class="section story-section">
+    <div class="container">
+      <p class="eyebrow reveal center">a small history, told slowly</p>
+      <h2 class="reveal center">Our Story, So Far</h2>
+
+      <!-- chapter 1 -->
+      <article class="chapter reveal">
+        <div class="chapter-text">
+          <span class="chapter-label">chapter one</span>
+          <h3>Stranger in Red</h3>
+          <p>The first time I saw you, you were wearing red, standing somewhere near a half-finished canvas at the office painting event — and I remember thinking, <em>wow, what a girl,</em> and immediately filing you under "stranger, do not get attached."</p>
+          <p>We weren't friends yet. We were just two people in the same room — except you, for some reason, sat through my entire parrot story without once getting up to leave. That should have been my first clue that you were trouble. The good kind.</p>
+          <p>Then the universe did its thing — the office seats got reshuffled, and somehow I landed on seat <strong>414</strong>, right next to you. Coincidence, probably. Destiny, I prefer to believe.</p>
+        </div>
+        <div class="chapter-photo">
+          <div class="polaroid" data-img="images/painting-event.jpg">
+            <img src="images/painting-event.jpg" alt="The office painting event where it all began" loading="lazy">
+            <div class="polaroid-fallback">
+              <span class="star-accent">✦</span>
+              <p>add a photo here:<br><code>images/painting-event.jpg</code></p>
+            </div>
+            <span class="polaroid-caption">the painting event, before I knew your name</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- chapter 2 -->
+      <article class="chapter reverse reveal">
+        <div class="chapter-text">
+          <span class="chapter-label">chapter two</span>
+          <h3>The Christmas That Came Early</h3>
+          <p>Then came the CSR event — the one right before Christmas — and somehow Christmas decided to show up early that year. We rode the bus together, ate ice cream like it was a serious team-building exercise, and walked around like we had nowhere better to be. We didn't.</p>
+          <p>And on the auto ride back — you hugged me. The first time. I don't remember everything we talked about that day. I remember exactly how that hug felt.</p>
+        </div>
+        <div class="chapter-photo">
+          <div class="polaroid" data-img="images/csr-hug.jpg">
+            <img src="images/csr-hug.jpg" alt="The CSR event hug" loading="lazy">
+            <div class="polaroid-fallback">
+              <span class="star-accent">✦</span>
+              <p>add a photo here:<br><code>images/csr-hug.jpg</code></p>
+            </div>
+            <span class="polaroid-caption">the auto ride back, the day christmas came early</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- chapter 3 -->
+      <article class="chapter reveal">
+        <div class="chapter-text">
+          <span class="chapter-label">chapter three</span>
+          <h3>Radha, Krishna, and a Stall</h3>
+          <p>Navratri turned you into Radha and me into your slightly less graceful Krishna, and we still somehow pulled off a "Sami Sami" performance that nobody asked for but everybody enjoyed.</p>
+          <p>Then Diwali handed me the bumper offer of the year — a few hours helping you run your very first stall, both of us pretending we knew what we were doing. There was a song playing somewhere in the background that night, something about catching someone stealing glances when they think no one's looking. I didn't have to imagine it. I was doing exactly that.</p>
+        </div>
+        <div class="chapter-photo two-up">
+          <div class="polaroid" data-img="images/navratri.jpg">
+            <img src="images/navratri.jpg" alt="Navratri, dressed as Radha and Krishna" loading="lazy">
+            <div class="polaroid-fallback">
+              <span class="star-accent">✦</span>
+              <p>add a photo:<br><code>images/navratri.jpg</code></p>
+            </div>
+            <span class="polaroid-caption">Radha & her Krishna</span>
+          </div>
+          <div class="polaroid" data-img="images/diwali-stall.jpg">
+            <img src="images/diwali-stall.jpg" alt="Diwali, helping at her first stall" loading="lazy">
+            <div class="polaroid-fallback">
+              <span class="star-accent">✦</span>
+              <p>add a photo:<br><code>images/diwali-stall.jpg</code></p>
+            </div>
+            <span class="polaroid-caption">your first stall, my favourite shift</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- chapter 4: constellation of small moments -->
+      <div class="moments reveal">
+        <span class="chapter-label center">a few more, in no particular order</span>
+        <h3 class="center">A Constellation of Small Moments</h3>
+        <div class="moments-grid">
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-31st-night.jpg" alt="31st Night" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>31st Night</h4><p>The terrace, the whole night, Appy Fizz in hand, watching Friends and counting stars till the year quietly turned over.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-diyas-mandir.jpg" alt="Diyas at the Mandir" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>Diyas at the Mandir</h4><p>A separate day, a separate calm — just the two of us lighting diyas together at the mandir.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-cricket-final.jpg" alt="The Cricket Final" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>The Cricket Final</h4><p>You won. I cheered louder than I've cheered for anything, ever.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-food-trips.jpg" alt="Every Food Trip" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>Every Food Trip</h4><p>Too many to count. Never once enough to make us stop.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-coke-incident.jpg" alt="The Coke Incident" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>The Coke Incident</h4><p>The day I spilled an entire bottle on your pants and somehow lived to tell this story.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-midnight-calls.jpg" alt="Midnight Calls" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>Midnight Calls</h4><p>The ones that started with "just five minutes" and ended at 3 a.m.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-fights.jpg" alt="Our Fights" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>Our Fights</h4><p>Loud, dramatic, always somehow over by morning.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-walks.jpg" alt="The Walks" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>The Walks</h4><p>No destination, no rush. Just us, and wherever the road went.</p></div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-photo">
+              <span class="star-accent">✦</span>
+              <img src="images/moment-happy-places.jpg" alt="Happy Places" loading="lazy">
+            </div>
+            <div class="moment-body"><h4>Happy Places</h4><p>Being each other's, on the good days and the very bad ones.</p></div>
+          </div>
+        </div>
+        <p class="moments-close center">Each one is small. All of them together are the only constellation I've ever cared about reading.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= JUST HER ================= -->
+  <section id="her" class="section her-section">
+    <div class="container narrow center">
+      <p class="eyebrow reveal">a fair and accurate report</p>
+      <h2 class="reveal">You, in Three Words You'll Deny</h2>
+      <p class="her-words reveal"><span>Ziddi.</span> <span>Akadu.</span> <span>Nakhrebaaz.</span></p>
+      <div class="zilmil-copy reveal">
+        <p>You'll fight me on all three, which honestly just proves my point. But you're also, somehow, the softest, most baby-like human I know when nobody else is looking — the one who needs convincing to eat, convincing to rest, convincing that she's allowed to be loved without earning it first.</p>
+        <p>You're the light in rooms that don't deserve you, and the moon that still bothers to show up on the cloudy nights. Whether you need me there or not — your happy place will always have my name quietly written somewhere in the corner of it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SWEET NOTHINGS ================= -->
+  <section id="quotes" class="section quotes-section">
+    <div class="container">
+      <p class="eyebrow reveal center">flirty, slightly unserious, fully true</p>
+      <h2 class="reveal center">Sweet Nothings &amp; Bad Jokes</h2>
+      <div class="quotes-grid" id="quotesGrid">
+        <!-- cards injected by JS for a little shuffle/tilt life -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LITTLE GAME ================= -->
+  <section id="game" class="section game-section">
+    <div class="container narrow center">
+      <p class="eyebrow reveal">a very serious mission</p>
+      <h2 class="reveal">Catch the Falling Stars</h2>
+      <p class="reveal">Catch <strong id="targetScore">15</strong> stars before they fall past you. Get there, and something opens up just for you.</p>
+
+      <div class="game-wrap reveal">
+        <canvas id="starGame" width="600" height="420" aria-label="Catch the falling stars game"></canvas>
+        <div class="game-hud">
+          <span>score: <strong id="score">0</strong></span>
+          <button id="startGame" class="btn">play</button>
+        </div>
+        <div class="game-unlock hidden" id="gameUnlock">
+          <p>✦ You caught them all. Of course you did. ✦</p>
+          <p class="small">(you've been catching my attention since seat 414 — this was never really a contest)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HER SONG ================= -->
+  <section id="song" class="section song-section">
+    <div class="container narrow center">
+      <p class="eyebrow reveal">on loop, on repeat, on purpose</p>
+      <h2 class="reveal">Your Song</h2>
+      <p class="reveal">I left a quiet little spot here just for it.</p>
+      <div class="player reveal">
+        <div class="player-art" aria-hidden="true">✦</div>
+        <audio id="songAudio" controls preload="metadata">
+          <source src="audio/her-song.mp3" type="audio/mpeg">
+        </audio>
+        <p class="player-note">no song loaded yet — drop the mp3 in as <code>audio/her-song.mp3</code> and this plays itself.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THE WISH ================= -->
+  <section id="wish" class="section wish-section">
+    <canvas id="confetti" aria-hidden="true"></canvas>
+    <div class="container narrow center">
+      <p class="eyebrow reveal">last page, biggest feeling</p>
+      <div class="rose reveal" aria-hidden="true">
+        <svg viewBox="0 0 60 80" width="48" height="64">
+          <path d="M30 80 L30 38" stroke="#3f6b3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M30 60 Q18 58 14 68" stroke="#3f6b3f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M30 50 Q42 47 46 58" stroke="#3f6b3f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <g>
+            <circle cx="30" cy="24" r="15" fill="#a3203a"/>
+            <path d="M30 9 C 20 9, 15 17, 15 24 C 15 31, 22 38, 30 38 C 24 33, 21 28, 24 22 C 26 18, 30 17, 30 17 Z" fill="#c5304a"/>
+            <path d="M30 17 C 34 17, 38 18, 40 22 C 43 28, 40 33, 34 38 C 42 38, 49 31, 49 24 C 49 17, 44 9, 34 9 Z" fill="#d5455c"/>
+            <circle cx="30" cy="24" r="5.5" fill="#7e1830"/>
+          </g>
+        </svg>
+      </div>
+      <h2 class="reveal wish-title">Happiest Birthday, Zilmil</h2>
+
+      <div class="candle-wrap reveal">
+        <button id="candleBtn" class="candle" aria-label="Blow the candle to reveal the wish">
+          <span class="flame"></span>
+          <span class="stick"></span>
+        </button>
+        <p class="small">tap the flame</p>
+      </div>
+
+      <div class="wish-copy hidden" id="wishCopy">
+        <p>I already know how this birthday probably goes — you, pretending you don't want a fuss, and me, making one anyway from somewhere far away.</p>
+        <p>So if today turns out like most of them, just know this little corner of the internet exists only because some feelings refused to fit inside a text message.</p>
+        <p>May this year be loud where you want it loud, quiet where you need it quiet, and bright — obviously, predictably, always — like you.</p>
+        <p class="signature">Whatever else changes, this won't: you are, and will always be, my favourite twinkle in the sky.</p>
+        <div class="rose small-rose" aria-hidden="true">
+          <svg viewBox="0 0 60 80" width="30" height="40">
+            <path d="M30 80 L30 38" stroke="#3f6b3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <circle cx="30" cy="24" r="15" fill="#a3203a"/>
+            <path d="M30 9 C 20 9, 15 17, 15 24 C 15 31, 22 38, 30 38 C 24 33, 21 28, 24 22 C 26 18, 30 17, 30 17 Z" fill="#c5304a"/>
+            <path d="M30 17 C 34 17, 38 18, 40 22 C 43 28, 40 33, 34 38 C 42 38, 49 31, 49 24 C 49 17, 44 9, 34 9 Z" fill="#d5455c"/>
+            <circle cx="30" cy="24" r="5.5" fill="#7e1830"/>
+          </svg>
+        </div>
+        <p class="signed">— your zilmil-namer</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>made quietly, for Sakshi ✦</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
