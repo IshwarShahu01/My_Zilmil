@@ -114,8 +114,7 @@ const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').mat
 /* ---------- sweet nothings: quote cards ---------- */
 (function quotes(){
   const lines = [
-    "Scientific fact: my heart rate doubles when you walk into a room. Peer review pending — by you, obviously.",
-    "You're ziddi, I'm patient. Basically a perfectly balanced ecosystem.",
+    
     "I asked the universe for a sign. It sent me seat 414. Still not over it.",
     "You called me trouble. Sir, with respect, you started it the day you wore red.",
     "Warning: prolonged exposure to your laugh causes spontaneous smiling in public, no explanation available.",
@@ -124,6 +123,8 @@ const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').mat
     "Some people count sheep to fall asleep. I count the days till our next food trip.",
     "Akadu by name, akadu by nature — and somehow still my favourite person to argue with.",
     "Every time you call me nakhrebaaz's biggest rival, I take it as the compliment it clearly is."
+     "Scientific fact: my heart rate doubles when you walk into a room. Peer review pending — by you, obviously.",
+    "You're ziddi, I'm patient. Basically a perfectly balanced ecosystem."
   ];
 
   const grid = document.getElementById('quotesGrid');
