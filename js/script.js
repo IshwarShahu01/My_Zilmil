@@ -114,12 +114,13 @@ const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').mat
 /* ---------- sweet nothings: quote cards ---------- */
 (function quotes(){
   const lines = [
-    "Scientific fact: my heart rate doubles when you walk into a room. Peer review pending — by you, obviously.",
-    "You're ziddi, I'm patient. Basically a perfectly balanced ecosystem.",
-    "I asked the universe for a sign. It sent me seat 414. Still not over it.",
+      "My little Chimdu – always making faces, always making my day better ",
+     "Scientific fact: my heart rate doubles when you walk into a room. Peer review pending — by you, obviously.",
+    "Tharki ho tum… par cute wale category mein",
+    "Jhilpe Jadu – kaam baad mein, baatein pehle",
     "You called me trouble. Sir, with respect, you started it the day you wore red.",
-    "Warning: prolonged exposure to your laugh causes spontaneous smiling in public, no explanation available.",
-    "I don't believe in luck. I believe in whatever made that seating chart reshuffle.",
+    "Dhebarpotli – muh kabhi khaali nahi, bas snacks ready rehna chahiye!",
+    "Bail Mundi: discussion ho ya argument… seedha takkar!",
     "You're the reason 'just five more minutes' on a call has never once meant five minutes.",
     "Some people count sheep to fall asleep. I count the days till our next food trip.",
     "Akadu by name, akadu by nature — and somehow still my favourite person to argue with.",
